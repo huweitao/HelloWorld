@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0999401D19D9607400C4F979 /* Print.m in Sources */ = {isa = PBXBuildFile; fileRef = 0999401C19D9607400C4F979 /* Print.m */; };
+		0999402019D962C800C4F979 /* Print+PrintApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0999401F19D962C800C4F979 /* Print+PrintApple.m */; };
+		0999402319D9634600C4F979 /* PrintOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0999402219D9634600C4F979 /* PrintOrange.m */; };
+		099B518619DA9AF50027DE82 /* ProfileEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 099B518519DA9AF50027DE82 /* ProfileEngine.m */; };
 		09BAD6CC196F9C650008C723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BAD6CB196F9C650008C723 /* Foundation.framework */; };
 		09BAD6CF196F9C650008C723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BAD6CE196F9C650008C723 /* main.m */; };
 		09BAD6D3196F9C650008C723 /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09BAD6D2196F9C650008C723 /* HelloWorld.1 */; };
+		51FBCC03F950350D7D05E68C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E58991859A2C342642D54D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +31,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0999401B19D9607400C4F979 /* Print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Print.h; sourceTree = "<group>"; };
+		0999401C19D9607400C4F979 /* Print.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Print.m; sourceTree = "<group>"; };
+		0999401E19D962C800C4F979 /* Print+PrintApple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Print+PrintApple.h"; sourceTree = "<group>"; };
+		0999401F19D962C800C4F979 /* Print+PrintApple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Print+PrintApple.m"; sourceTree = "<group>"; };
+		0999402119D9634600C4F979 /* PrintOrange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintOrange.h; sourceTree = "<group>"; };
+		0999402219D9634600C4F979 /* PrintOrange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintOrange.m; sourceTree = "<group>"; };
+		099B518419DA9AF50027DE82 /* ProfileEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileEngine.h; sourceTree = "<group>"; };
+		099B518519DA9AF50027DE82 /* ProfileEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileEngine.m; sourceTree = "<group>"; };
 		09BAD6C8196F9C650008C723 /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BAD6CB196F9C650008C723 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09BAD6CE196F9C650008C723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09BAD6D1196F9C650008C723 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		09BAD6D2196F9C650008C723 /* HelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloWorld.1; sourceTree = "<group>"; };
+		72E58991859A2C342642D54D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAFB969D7692E5C81437038 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B02AEA41FDC69DAE4E7F2BC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BAD6CC196F9C650008C723 /* Foundation.framework in Frameworks */,
+				51FBCC03F950350D7D05E68C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,9 +65,18 @@
 		09BAD6BF196F9C640008C723 = {
 			isa = PBXGroup;
 			children = (
+				099B518419DA9AF50027DE82 /* ProfileEngine.h */,
+				099B518519DA9AF50027DE82 /* ProfileEngine.m */,
+				0999402119D9634600C4F979 /* PrintOrange.h */,
+				0999402219D9634600C4F979 /* PrintOrange.m */,
+				0999401E19D962C800C4F979 /* Print+PrintApple.h */,
+				0999401F19D962C800C4F979 /* Print+PrintApple.m */,
+				0999401B19D9607400C4F979 /* Print.h */,
+				0999401C19D9607400C4F979 /* Print.m */,
 				09BAD6CD196F9C650008C723 /* HelloWorld */,
 				09BAD6CA196F9C650008C723 /* Frameworks */,
 				09BAD6C9196F9C650008C723 /* Products */,
+				D8FE2B77A9AC03E617854865 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				09BAD6CB196F9C650008C723 /* Foundation.framework */,
+				72E58991859A2C342642D54D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,6 +115,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D8FE2B77A9AC03E617854865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B02AEA41FDC69DAE4E7F2BC7 /* Pods.debug.xcconfig */,
+				8DAFB969D7692E5C81437038 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09BAD6D6196F9C650008C723 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
 			buildPhases = (
+				F91506055CEDED1D5DB6A8FF /* Check Pods Manifest.lock */,
 				09BAD6C4196F9C640008C723 /* Sources */,
 				09BAD6C5196F9C640008C723 /* Frameworks */,
 				09BAD6C6196F9C640008C723 /* CopyFiles */,
+				77C089170C5A958D66F1743A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,12 +172,49 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77C089170C5A958D66F1743A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91506055CEDED1D5DB6A8FF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09BAD6C4196F9C640008C723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				09BAD6CF196F9C650008C723 /* main.m in Sources */,
+				0999402319D9634600C4F979 /* PrintOrange.m in Sources */,
+				0999401D19D9607400C4F979 /* Print.m in Sources */,
+				0999402019D962C800C4F979 /* Print+PrintApple.m in Sources */,
+				099B518619DA9AF50027DE82 /* ProfileEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +293,7 @@
 		};
 		09BAD6D7196F9C650008C723 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02AEA41FDC69DAE4E7F2BC7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
@@ -227,6 +303,7 @@
 		};
 		09BAD6D8196F9C650008C723 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAFB969D7692E5C81437038 /* Pods.release.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
@@ -253,6 +330,7 @@
 				09BAD6D8196F9C650008C723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
